@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 @Component
 @Scope("prototype")
+
 public class ConsoleInput {
     private Scanner scanner = new Scanner(System.in);
 
